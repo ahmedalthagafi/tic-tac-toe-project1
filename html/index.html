@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Google Font links -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Modak" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Tic Tac Toe</h1>
+
+    </header>
+    <main>
+        <!-- Players Menu -->
+        <div id="players-menu">
+
+            <div class="menu">
+                <h2 class="player1" id="p1">Palyer 1 Score : </h2>
+                <h3  id="p1-text"></h3>
+                <h2 class="player2" id="p2">Palyer 2 Score : </h2>
+                <h3  id="p2-text"></h3>
+
+            </div>
+
+        </div>
+
+        <!-- Main Box Contain Three Rows -->
+        <div id="main-box">
+            <!-- first row -->
+            <div class="container" id="row-1">
+                <div class="inner-box" id="0">
+                    <h1 class="box" id="box-1"></h1>
+                </div>
+                <div class="inner-box" id="1">
+                    <h1 class="box" id="box-2"></h1>
+
+                </div>
+                <div class="inner-box" id="2">
+                    <h1 class="box" id="box-3"></h1>
+                </div>
+            </div>
+
+            <!-- 2nd row -->
+            <div class="container" id="row-2">
+                <div class="inner-box" id="3">
+                    <h1 class="box" id="box-4"></h1>
+
+                </div>
+                <div class="inner-box" id="4">
+                    <h1 class="box" id="box-5"></h1>
+                </div>
+                <div class="inner-box" id="5">
+                    <h1 class="box" id="box-6"></h1>
+                </div>
+            </div>
+
+            <!-- 3rd row -->
+            <div class="container">
+                <div class="inner-box" id="6">
+                    <h1 class="box" id="box-7"></h1>
+                </div>
+                <div class="inner-box" id="7">
+                    <h1 class="box" id="box-8"></h1>
+                </div>
+                <div class="inner-box" id="8">
+                    <h1 class="box" id="box-9"></h1>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </main>
+
+    <!-- Restart Game Button -->
+    <div id="restart">
+        <button class="btn" id="play-agin">Play Again</button>
+    </div>
+
+    <!-- Reset Score Button -->
+    <div id="reset">
+        <button class="btn" id="btn-2">Reset Score</button>
+    </div>
+
+    <!-- Connect Jquery & JS Scripts -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="../js/main.js" type="text/javascript"></script>
+</body>
+</html>

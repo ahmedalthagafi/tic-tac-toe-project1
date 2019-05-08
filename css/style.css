@@ -1,0 +1,153 @@
+body {
+    background-color: rgb(28, 2, 51);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    color: #FAFAFA;
+    background-color: rgba(224, 224, 224, 0.3);
+    border-radius: 20%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Acme', sans-serif;
+}
+
+main {
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* Players Menu  */
+h2{
+    color: rgb(238, 255, 1);
+}
+#players-menu {
+    width: 40%;
+    height: 500px;
+    align-self: flex-start;
+    font-family: 'Acme', sans-serif;
+
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 500px;
+    width: 60%;
+    color: #FAFAFA;
+    position: relative;
+    display: flex;
+    border-radius: 15px;
+}
+
+.player1 {
+    position: absolute;
+    left: 10%;
+}
+
+.player2 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+}
+
+.menu h3:nth-child(4) {
+    position: absolute;
+    top: 270px;
+    left: 20%;
+    font-size: 50px;
+}
+
+.menu h3:nth-child(2) {
+    position: absolute;
+    top: 30px;
+    left: 20%;
+    font-size: 50px;
+}
+
+.menu h3 {
+    font-family: 'Play', sans-serif;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 20%;
+    width: 60%;
+    border: 2px solid #FAFAFA;
+    border-radius: 10px;
+    padding-top: 40px;
+  
+}
+
+/* Main Box Contain Three Rows */
+#main-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 2px -1px 18px 22px rgba(184, 183, 183, 0.75);
+}
+
+.container {
+    color: #FAFAFA;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.inner-box {
+    border: 2px solid gray;
+    height: 165px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+.box {
+    font-size: 95px;
+    width: 190px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Restart Game & Reset Score  Button */
+#restart,
+#reset {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#restart button {
+    height: 50px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: rgba(60, 60, 60, 0.5);
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 135px;
+}
+
+#reset button {
+    height: 50px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: rgba(60, 60, 60, 0.5);
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right: 260px;
+}
+
+#restart button:hover,
+#reset button:hover {
+    background-color: rgba(244, 248, 0, 0.5);
+}
