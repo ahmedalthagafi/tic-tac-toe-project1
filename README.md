@@ -33,7 +33,3 @@ but did not have the time,So in future some sounds
  and animations will be added.
 
 
-#solved for the winner
-I made an empty array that will take the value of the elemnt id
-to place X or O  where it should be then compared the indexes 
-inside that array in a function called (check Winner) with if statment.
